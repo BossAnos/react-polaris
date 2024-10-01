@@ -1,0 +1,14 @@
+.app {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.content {
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-bottom: 2rem;
+  width: 90vw;
+  padding-left: 4rem;
+  background-color: white;
+}
