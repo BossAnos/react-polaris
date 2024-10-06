@@ -1,3 +1,30 @@
+.Polaris-Page {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 80vw;
+  min-width: 80vw;
+}
+
+.Polaris-Icon {
+  margin: 0 !important;
+}
+
+.Polaris-ButtonGroup,
+.pagination {
+  display: flex;
+  justify-content: end;
+  padding-top: 1rem;
+}
+
+.pagination .Polaris-InlineStack {
+  gap: 0.25rem;
+}
+
+.Polaris-InlineStack .Polaris-FormLayout__Item:last-child {
+  --pc-form-layout-item-min-size: 0rem;
+  transform: translateY(50%);
+}
+
 .app {
   display: flex;
   width: 100vw;
@@ -11,4 +38,41 @@
   width: 90vw;
   padding-left: 4rem;
   background-color: white;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.item-center {
+  align-items: center;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.product_name {
+  display: inline-block;
+  width: 180px;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.error_drag .Polaris-DropZone {
+  border: 1px solid red;
+  background-color: #fee8eb;
+}
+
+.error_drag .Polaris-DropZone:hover {
+  border: 1px solid red;
+  background-color: #fee8eb;
+}
+
+.label {
+  font-size: var(--p-text-body-md-font-size);
+  font-weight: var(--p-text-body-sm-font-weight);
+  letter-spacing: var(--p-text-body-md-font-letter-spacing);
+  line-height: var(--p-text-body-md-font-line-height);
 }

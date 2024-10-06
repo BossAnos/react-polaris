@@ -1,5 +1,5 @@
 import { AppProvider } from "@shopify/polaris";
-import { BrowserRouter as Routes, Route, Router } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar/navbar";
 import { Dashboard, Product } from "./pages";
 import "./App.css"
@@ -12,8 +12,8 @@ function App() {
           <Navbar />
           <div className="content">
             <Routes>
-              <Route exact path="/" element={<Dashboard />} />
-              <Route exact path="/product" element={<Product />} />
+              <Route path="/" element={<Dashboard />} />
+              <Route path="/product" element={<Product />} />
             </Routes>
           </div>
         </div>
