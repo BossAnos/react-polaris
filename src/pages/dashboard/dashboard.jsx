@@ -1,8 +1,8 @@
 import { Grid, Page } from "@shopify/polaris";
-import BarChart from "../components/chart/barChart";
-import LineChart from "../components/chart/lineChart";
-import DateRange from "../components/datePicker/datePicker";
-import useTitle from "../hook/useTitle";
+import BarChart from "../../components/chart/barChart";
+import LineChart from "../../components/chart/lineChart";
+import DateRange from "../../components/datePicker/datePicker";
+import useTitle from "../../hook/useTitle";
 
 function Dashboard() {
   useTitle("Dashboard");
